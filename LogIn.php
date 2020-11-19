@@ -21,7 +21,28 @@
 	</head>
 	<body>
 		<?php include 'master/header.php'?>
-		
+        
+        <br/>
+        
+        <div class="container">
+            <h1>Log In</h1>
+            <form action="master/check.php" method="post">
+                <div class="form-group">
+                    <label for="email" class="formLabel">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="formLabel">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <br/>
+            <p>Don't have an account?</p>
+            <a href="SignUp.php">Sign Up now!</a>
+        </div>
+  
 		<?php include 'master/footer.php'?>
 	</body>
 </html>

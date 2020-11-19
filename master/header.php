@@ -1,5 +1,5 @@
 <?php
-    echo "<<header>
+    echo "<header>
             <div class=\"logo\">
                 <a href=\"index.php\">
                     <!-- Guy-Manuel de Homem-Christo, Public domain, via Wikimedia Commons -->
@@ -15,5 +15,4 @@
                 <li><a href=\"OtherProjects.php\">Other Projects</a></li>
                 <li><a href=\"SignUp.php\">Sign Up</a></li>
             </div>
-        </header>"
-?>
+        </header>";
