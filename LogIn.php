@@ -16,7 +16,8 @@
 		<link rel="stylesheet" href="styles/mainStyle.css">
 		
 		<!--Scripts-->
-		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js"
+                integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="scripts/themeChange.js"></script>
 	</head>
 	<body>
@@ -29,8 +30,7 @@
             <form action="master/check.php" method="post">
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <label for="password" class="formLabel">Password</label>

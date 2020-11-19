@@ -82,30 +82,30 @@
             <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
                 <div class="form-group">
                     <label for="firstName" class="formLabel">First Name:</label>
-                    <input type="text" class="form-control" id="firstName" value="<?php echo $firstName ?>"
-                           placeholder="Forename">
+                    <input type="text" class="form-control" id="firstName" name="firstName"
+                           value="<?php echo $firstName ?>" placeholder="Forename">
                 </div>
                 <div class="form-group">
                     <label for="lastName" class="formLabel">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" value="<?php echo $lastName ?>"
-                           placeholder="Surname">
+                    <input type="text" class="form-control" id="lastName" name="lastName"
+                           value="<?php echo $lastName ?>" placeholder="Surname">
                 </div>
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
-                    <input type="email" class="form-control" id="email" value="<?php echo $email ?>"
+                    <input type="email" class="form-control" id="email" name="email" value="<?php echo $email ?>"
                            placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <label for="pword" class="formLabel">Password</label>
-                    <input type="password" class="form-control" id="pword" value="<?php echo $pword ?>"
+                    <input type="password" class="form-control" id="pword" name="pword" value="<?php echo $pword ?>"
                            aria-describedby="pwordAssist" placeholder="Password">
                     <small id="pwordAssist" class="form-text text-muted">Please make your password longer than 8
                         characters, with at least 1 number and 1 special character.</small>
                 </div>
                 <div class="form-group">
                     <label for="pwordConfirm" class="formLabel">Confirm Password</label>
-                    <input type="password" class="form-control" id="pwordConfirm" value="<?php echo $pwordConfirm ?>"
-                           placeholder="Confirm">
+                    <input type="password" class="form-control" id="pwordConfirm" name="pwordConfirm"
+                           value="<?php echo $pwordConfirm ?>" placeholder="Confirm">
                 </div>
                 <button type="submit" id="submit">Submit</button>
                 <button type="reset" id="reset">Reset</button>

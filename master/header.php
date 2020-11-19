@@ -3,7 +3,7 @@
             <div class=\"logo\">
                 <a href=\"index.php\">
                     <!-- Guy-Manuel de Homem-Christo, Public domain, via Wikimedia Commons -->
-                <img src=\"media\Logo\Daft_Punk_Logo_Black.png\" alt=\"Daft Punk Logo\" width=\"70px\" height=\"50px\" />
+                <img src=\"media\Logo\Daft_Punk_Logo_Black.png\" alt=\"Daft Punk Logo\" width=\"70px\" height=\"50px\"/>
                 </a>
             </div>
             <div class=\"navbar\">
