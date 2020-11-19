@@ -1,0 +1,145 @@
+:root {
+    --background: #232323; /* for the header */
+    --h: #D4AF37; /* For h tags and other important text */
+    --p: #AAA9AD; /* For p tags and other less important text */
+    --alt-p: #232323; /* for text elements that need to be different */
+    --header: #D4AF37; /* for the header */
+    --footer: #AAA9AD; /* for the footer */
+}
+
+body {
+    background-color: var(--background);
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--h);
+    padding: 10px;
+}
+
+p {
+    color: var(--p);
+}
+
+a {
+    color: var(--h);
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color: var(--p);
+}
+
+header {
+    background-color: var(--header);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    height: auto;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: var(--background);
+    font-weight: 900;
+}
+
+li a:hover {
+    background-color: var(--p);
+    color: var(--background);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button {
+    background-color: var(--header);
+    color: #232323;
+    display: inline-block;
+}
+
+.themeSwitchButton {
+    float:left;
+    margin-right:5px;
+}
+
+.themeSwitchButtonDiv #themeSwitchLight:hover {
+    background-color: #AAA9AD;
+    color: #232323;
+}
+
+.themeSwitchButtonDiv #themeSwitchDark:hover {
+    background-color: #232323;
+    color: #AAA9AD;
+}
+
+.iframeSwitchButton {
+    margin: auto;
+    padding: 10px;
+}
+
+.iframeSwitchButton:hover {
+    background-color: #AAA9AD;
+    color: #232323;
+}
+
+footer {
+    background-color: var(--footer);
+    height: auto;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: var(--alt-p);
+    padding: 10px;
+}
+
+footer a {
+    color: var(--alt-p);
+    padding: 10px;
+}
+
+footer a:hover {
+    color: var(--header);
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.container img {
+    padding: 20px;
+}
+
+.logo {
+    position: relative;
+    height: auto;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+/* for album cover display at top of screen */
+.cover-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
