@@ -47,7 +47,7 @@
                         lorem sit amet enim. Aenean at mi sit amet est pharetra hendrerit sit amet sed erat. Suspendisse
                         consectetur turpis quis libero dignissim mollis. In at nulla libero. Suspendisse potenti.
                         Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                    <br>
+                    <br/>
                     In auctor dui sit amet porta commodo. Nulla velit lectus, finibus eu fringilla in, bibendum vel
                         sapien. Duis pellentesque, libero id varius convallis, lacus lacus porta libero, ut laoreet
                         sapien justo nec lectus. Duis et tortor ac mauris mollis malesuada sed non ipsum. Pellentesque
@@ -85,7 +85,7 @@
                         leo massa. Etiam vestibulum metus velit, vel ullamcorper elit ullamcorper egestas. Vestibulum
                         vel sagittis risus, sed tincidunt augue. Sed eget est lorem. Sed accumsan elementum eros et
                         tempor.
-                    <br>
+                    <br/>
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                         Phasellus consequat urna massa, et vulputate erat tincidunt quis. Morbi pretium arcu vel
                         ullamcorper lacinia. Fusce sed enim et nunc volutpat scelerisque id sit amet nulla. Etiam
@@ -107,7 +107,7 @@
                         Aenean ultrices accumsan mollis. Praesent a volutpat justo. Mauris enim dui, congue et eros vel,
                         volutpat tincidunt nisl. Suspendisse quis nisl ac nisi pulvinar fringilla. Sed posuere libero in
                         enim convallis tincidunt.
-                    <br>
+                    <br/>
                     Integer porttitor orci tortor, sollicitudin porta nibh ullamcorper ac. Etiam non nunc lacus. Cras
                         vel neque at lectus gravida cursus nec id elit. Nunc eu eros quam. Aenean auctor suscipit mi,
                         at sodales justo auctor ac. Aliquam id elit tellus. Phasellus id leo et dui rutrum pharetra non
@@ -136,7 +136,7 @@
                         cursus lorem odio, vitae aliquam magna ultricies quis. Donec viverra vitae leo ut commodo. Donec
                         sagittis odio sed cursus iaculis. Praesent convallis nec justo quis varius. Quisque vehicula et
                         velit ac gravida. Phasellus fermentum lectus vitae diam feugiat, nec posuere erat tincidunt.
-                    <br>
+                    <br/>
                     Phasellus id nisi leo. Praesent luctus orci quam, at cursus arcu porta quis. Interdum et malesuada
                         fames ac ante ipsum primis in faucibus. Suspendisse posuere diam leo, a consequat massa laoreet
                         eget. In nulla tellus, egestas at magna nec, rhoncus tempor dolor. Curabitur sapien felis,
