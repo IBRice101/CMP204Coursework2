@@ -19,7 +19,7 @@
 	}
 	function validatePassword($info) {
 		if ($info == "") {
-			echo "<p class='error'>Please choose a password</p>";
+			echo "<p class='error'>Please input your password</p>";
 		} else {
 			$info = strip($info);
 		}
@@ -35,4 +35,3 @@
 		
 		return $info;
 	}
-?>

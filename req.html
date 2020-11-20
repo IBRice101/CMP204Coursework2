@@ -26,8 +26,8 @@
     </tr>
     <tr>
         <td>Use of the Bootstrap framework providing a responsive layout </td>
-        <td>Each page is divided into columns and rows (using the bootstrap framework's col and row div classes) which vary
-            in number and physical size as required. Additionally I make use of Bootstrap's navbar class </td>
+        <td>Each page is divided into columns and rows (using the bootstrap framework's col and row div classes) which
+            vary in number and physical size as required. Additionally I make use of Bootstrap's navbar class </td>
         <td>Demonstrated throughout</td>
     </tr>
     <tr>
@@ -52,12 +52,18 @@
     </tr>
     <tr>
         <td>Appropriate consideration of relevant laws</td>
-        <td>Implemented a cookie (that currently has no function) in JS and added a cookie consent popup to index.html in
-            order to be in line with the Cookie law, additionally, the banner itself contains a cookie that remembers that
-            you've clicked the "got it" button and will not show again until cookies are cleared, if it does not show up
-            simply open in Incognito mode or clear cookies <br> Additionally, the usage of alt text takes accessibility into
-            account, which falls in line with the Disability Discrimination Act</td>
-        <td>Index.php <br> all img tags</td>
+        <td>Implemented a cookie (that currently has no function) in JS and added a cookie consent popup to index.html
+            in order to be in line with the Cookie law
+            <br>
+            Additionally, the banner itself contains a cookie that remembers that you've clicked the "got it" button and
+            will not show again until cookies are cleared, if it does not show up simply open in Incognito mode or clear
+            cookies
+            <br>
+            Finally, the usage of alt text takes accessibility into account, which falls in line with the Disability
+            Discrimination Act</td>
+        <td>Index.php
+            <br>
+            all img tags</td>
     </tr>
     <tr>
         <td>SQL queries should be written as prepared statements</td>
@@ -71,8 +77,27 @@
     </tr>
     <tr>
         <td>Validation of user input</td>
-        <td></td>
-        <td></td>
+        <td>scriptSignUp.php validates input posted from the SignUp form, it contains 5 validation functions (1 for each
+            field in order for the error messages to be relevant to each individual field) and a strip() function.
+            <br/>
+            Each validation function first checks whether the field is empty, if it is it throws the relevant error, if
+            not, it strips the inputted data of whitespace and special characters in order to prevent XSS and SQL
+            Injection attacks.
+            <br/>
+            For the email form it checks whether the data is in an email format using PHP's filter_var() function, and
+            for the password it first checks whether the data for the password field equals the data for the password
+            confirm field.
+            <br>
+            Finally, a regular expression is used on the password field in order to check it fulfils the password
+            requirements as laid out in the &#12296;small&#12297; below the password field. this is achieved using PHP's
+            preg_match() function
+            <br>
+            <br>
+            scriptLogIn.php does much the same but on only two fields, email and password.
+        </td>
+        <td>master/scriptLogIn.php - lines 2-37
+            <br>
+            master/scriptSignUp.php - lines 2-69</td>
     </tr>
 </table>
 

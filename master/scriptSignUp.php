@@ -41,6 +41,8 @@
 	function validatePassword($info) {
 		if ($info == "") {
 			echo "<p class='error'>Please choose a password</p>";
+		} elseif (!preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $info)) {
+			echo "<p class='error'>Password not strong enough</p>";
 		} else {
 			$info = strip($info);
 		}
@@ -55,7 +57,7 @@
 		return $info;
 	}
 	
-	if (validatePassword($pword) != validatePasswordConfirm($pwordConfirm)) {
+	if ($pword != $pwordConfirm) {
 		echo "<p class='error'>The passwords do not match</p>";
 	}
 	
@@ -67,4 +69,3 @@
 		
 		return $info;
 	}
-?>
