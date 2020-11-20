@@ -66,7 +66,7 @@
         
         <div class="container">
             <h1>Log In</h1>
-            <form action="master/check.php" method="post">
+            <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" value="<?php echo $email ?>"
