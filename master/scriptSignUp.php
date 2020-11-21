@@ -69,3 +69,30 @@
 		
 		return $x;
 	}
+
+	// Salt and hash passwords
+
+    // NOTE: do not push this to public with ur real creds
+    $servername = "lochnagar.abertay.ac.uk";
+	$usernameSQL = "sql1901124";
+	$passwordSQL = "tHvLZSxWZ4ex";
+	$dbname = "sql1901124";
+
+	// connection to lochnagar
+	$conn = mysqli_connect($servername, $usernameSQL, $passwordSQL, $dbname);
+
+	if (!$conn) {
+	    die("Connection failed:" . mysqli_connect_error());
+    }
+
+	// Insertion of user information
+	$sql = "INSERT INTO MyUsers (firstname, lastname, email, password) VALUES ($firstName, $lastName, $email, $pword)";
+
+	if (mysqli_query($conn, $sql)) {
+	    echo "New user created successfully";
+    } else {
+	    echo "<p class='error'> There was an error </p>";
+	    echo "Error: " . $sql . mysqli_error($conn);
+    }
+
+	mysqli_close($conn);
