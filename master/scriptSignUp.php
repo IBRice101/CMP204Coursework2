@@ -10,62 +10,62 @@
 		$pwordConfirm = validatePasswordConfirm($_POST["pwordConfirm"]);
 	}
 	
-	function validateFirstName($info) {
+	function validateFirstName($x) {
 		//check if string is empty
-		if ($info == "") {
+		if ($x == "") {
 			echo "<p class='error'>Please input your first name</p>";
 		} else {
-			$info = strip($info);
+			$x = strip($x);
 		}
-		return $info;
+		return $x;
 	}
-	function validateLastName($info) {
-		if ($info == "") {
+	function validateLastName($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please input your surname</p>";
 		} else {
-			$info = strip($info);
+			$x = strip($x);
 		}
-		return $info;
+		return $x;
 	}
-	function validateEmail($info) {
-		if ($info == "") {
+	function validateEmail($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please input your email address</p>";
 		} else {
-			$info = strip($info);
-			if (!(filter_var($info, FILTER_VALIDATE_EMAIL))) {
+			$x = strip($x);
+			if (!(filter_var($x, FILTER_VALIDATE_EMAIL))) {
 				echo "<p class='error'>This email address is invalid</p>";
 			}
 		}
-		return $info;
+		return $x;
 	}
-	function validatePassword($info) {
-		if ($info == "") {
+	function validatePassword($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please choose a password</p>";
-		} elseif (!preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $info)) {
+		} elseif (!preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $x)) {
 			echo "<p class='error'>Password not strong enough</p>";
 		} else {
-			$info = strip($info);
+			$x = strip($x);
 		}
-		return $info;
+		return $x;
 	}
-	function validatePasswordConfirm($info) {
-		if ($info == "") {
+	function validatePasswordConfirm($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please confirm your password</p>";
 		} else {
-			$info = strip($info);
+			$x = strip($x);
 		}
-		return $info;
+		return $x;
 	}
 	
 	if ($pword != $pwordConfirm) {
 		echo "<p class='error'>The passwords do not match</p>";
 	}
 	
-	function strip($info) {
+	function strip($x) {
 		// done to avoid XSS and SQLi
-		$info = trim($info); // removes extra space, tab, newline, etc
-		$info = stripslashes($info); // removes slashes
-		$info = htmlspecialchars($info); // removes &,",',<,>
+		$x = trim($x); // removes extra space, tab, newline, etc
+		$x = stripslashes($x); // removes slashes
+		$x = htmlspecialchars($x); // removes &,",',<,>
 		
-		return $info;
+		return $x;
 	}

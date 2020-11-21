@@ -6,32 +6,32 @@
 		$email = validateEmail($_POST["email"]);
 		$pword = validatePassword($_POST["pword"]);
 	}
-	function validateEmail($info) {
-		if ($info == "") {
+	function validateEmail($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please input your email address</p>";
 		} else {
-			$info = strip($info);
-			if (!(filter_var($info, FILTER_VALIDATE_EMAIL))) {
+			$x = strip($x);
+			if (!(filter_var($x, FILTER_VALIDATE_EMAIL))) {
 				echo "<p class='error'>This email address is invalid</p>";
 			}
 		}
-		return $info;
+		return $x;
 	}
-	function validatePassword($info) {
-		if ($info == "") {
+	function validatePassword($x) {
+		if ($x == "") {
 			echo "<p class='error'>Please input your password</p>";
 		} else {
-			$info = strip($info);
+			$x = strip($x);
 		}
-		return $info;
+		return $x;
 	}
 	
-	function strip($info)
+	function strip($x)
 	{
 		// done to avoid XSS and SQLi
-		$info = trim($info); // removes extra space, tab, newline, etc
-		$info = stripslashes($info); // removes slashes
-		$info = htmlspecialchars($info); // removes &,",',<,>
+		$x = trim($x); // removes extra space, tab, newline, etc
+		$x = stripslashes($x); // removes slashes
+		$x = htmlspecialchars($x); // removes &,",',<,>
 		
-		return $info;
+		return $x;
 	}
