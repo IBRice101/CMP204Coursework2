@@ -70,7 +70,8 @@
 		return $x;
 	}
 
-	// Salt and hash passwords
+	// Salt and hash password
+	$pword = password_hash($pword, PASSWORD_DEFAULT);
 
     // NOTE: do not push this to public with ur real creds
     $servername = "lochnagar.abertay.ac.uk";
