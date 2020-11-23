@@ -21,7 +21,7 @@
 	<script type="text/javascript" src="scripts/themeChange.js"></script>
 </head>
 <body>
-	<?php include 'master/header.php'?>
+	<?php include 'master/header.php' ?>
 	
 	<br/>
 		<div class="container">
@@ -29,5 +29,5 @@
 		</div>
 	<br/>
 	
-	<?php include 'master/footer.php'?>
+	<?php include 'master/footer.php' ?>
 </body>
