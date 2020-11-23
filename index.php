@@ -141,8 +141,7 @@
 
         <!--From https://cookieconsent.popupsmart.com/-->
         <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
-    <script> window.start.init({Palette:"palette1",Theme:"classic",Message:"This website uses cookies, they hold no " +
-                "data on you, however we will inform you if this changes.",})</script>
+    	<script type="text/javascript" src="scripts/cookieConsent.js"></script>
 
     <?php include 'master\footer.php'?>
 
