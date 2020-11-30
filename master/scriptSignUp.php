@@ -10,6 +10,7 @@
 		$pwordConfirm = validatePasswordConfirm($_POST["pwordConfirm"]);
 	}
 	
+	// validation
 	function validateFirstName($x) {
 		//check if string is empty
 		if ($x == "") {
