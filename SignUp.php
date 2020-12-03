@@ -27,7 +27,7 @@
         
         <div class="container">
             <h1>Sign Up</h1>
-            <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+            <form action="master/scriptSignUp.php" method="post">
                 <div class="form-group">
                     <label for="firstName" class="formLabel">First Name:</label>
                     <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Forename">
@@ -59,7 +59,6 @@
             <p>Already have an account?</p>
             <a href="LogIn.php">Log In</a>
             <br/>
-	        <?php include 'master/scriptSignUp.php' ?>
 			<br/>
         </div>
         

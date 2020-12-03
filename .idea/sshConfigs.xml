@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="mayar.abertay.ac.uk" id="9f143768-83e5-4827-818c-7df9a7ac4e98" port="22" nameFormat="DESCRIPTIVE" username="1901124" />
+    </configs>
+  </component>
+</project>

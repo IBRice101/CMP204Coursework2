@@ -5,6 +5,13 @@
       <webServer id="b0f94442-d522-481a-9e79-c67db0da93b4" name="XAMPP Apache" url="http://localhost">
         <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
       </webServer>
+      <webServer id="7f3bf268-99e8-424f-ac03-efcf513866cc" name="Mayar">
+        <fileTransfer rootFolder="/home/1901124/public_html/cmp204/coursework2" accessType="SFTP" host="mayar.abertay.ac.uk" port="22" sshConfigId="9f143768-83e5-4827-818c-7df9a7ac4e98" sshConfig="1901124@mayar.abertay.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

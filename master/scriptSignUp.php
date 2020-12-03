@@ -89,7 +89,7 @@
     }
 
 	// Insertion of user information
-	$sql = "INSERT INTO MyUsers (firstname, lastname, email, password) VALUES ($firstName, $lastName, $email, $pword)";
+	$sql = "INSERT INTO myUsers (firstname, lastname, email, password) VALUES ('$firstName', '$lastName', '$email', '$pword')";
 
 	if (mysqli_query($conn, $sql)) {
 	    echo "New user created successfully";
@@ -99,4 +99,5 @@
     }
 
 	mysqli_close($conn);
+	header("Location: ../SignUp.php");
 	
