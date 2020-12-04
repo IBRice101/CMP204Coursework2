@@ -53,6 +53,7 @@
 		die("Connection failed:" . mysqli_connect_error());
 	}
 	
-	// login functionality
+	$sql = "SELECT id FROM myUsers WHERE email = '$email' and password = '$pword'";
+	$result = mysqli_query($conn, $sql);
 	
 	mysqli_close($conn);

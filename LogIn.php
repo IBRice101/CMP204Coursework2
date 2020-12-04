@@ -27,7 +27,7 @@
         
         <div class="container">
             <h1>Log In</h1>
-            <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+            <form action="master/scriptLogIn.php" method="post">
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
@@ -43,7 +43,6 @@
             <p>Don't have an account?</p>
             <a href="SignUp.php">Sign Up now!</a>
 			<br/>
-			<?php include 'master/scriptLogIn.php'?>
 			<br/>
         </div>
   
