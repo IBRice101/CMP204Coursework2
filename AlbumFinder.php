@@ -37,6 +37,8 @@
 	</form>
 </div>
 
+<?php include "master/scriptAlbumFinder.php"?>
+
 <br/>
 
 <?php include 'master/footer.php'?>
