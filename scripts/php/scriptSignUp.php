@@ -99,5 +99,3 @@
     }
 
 	mysqli_close($conn);
-	header("Location: ../SignUp.php");
-	
