@@ -38,7 +38,7 @@
 	<div id="album"></div>
 </div>
 
-<?php include "master/scriptAlbumFinder.php"?>
+<?php include "master/scriptAlbumFinder.php" ?>
 
 <br/>
 
