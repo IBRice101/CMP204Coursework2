@@ -35,6 +35,7 @@
 		<input type="text" id="song" name="song" placeholder="Daft Punk Song">
 		<button type="submit" id="submitSong" onclick="findSong(this.value)">Submit Song</button>
 	</form>
+	<div id="album"></div>
 </div>
 
 <?php include "master/scriptAlbumFinder.php"?>
