@@ -19,10 +19,10 @@
         <!--Scripts-->
         <script src="https://code.jquery.com/jquery-3.5.1.js"
                 integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="scripts/slick.js"></script>
-            <script type="text/javascript" src="scripts/slickInit.js"></script>
-        <script type="text/javascript" src="scripts/themeChange.js"></script>
-        <script type="text/javascript" src="scripts/cookie.js"></script>
+            <script type="text/javascript" src="scripts/js/slick.js"></script>
+            <script type="text/javascript" src="scripts/js/slickInit.js"></script>
+        <script type="text/javascript" src="scripts/js/themeChange.js"></script>
+        <script type="text/javascript" src="scripts/js/cookie.js"></script>
 
     </head>
     <body>
@@ -141,7 +141,7 @@
 
         <!--From https://cookieconsent.popupsmart.com/-->
         <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
-    	<script type="text/javascript" src="scripts/cookieConsent.js"></script>
+    	<script type="text/javascript" src="scripts/js/cookieConsent.js"></script>
 
     <?php include 'master\footer.php'?>
 

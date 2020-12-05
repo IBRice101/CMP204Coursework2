@@ -18,8 +18,8 @@
 	<!--Scripts-->
 	<script src="https://code.jquery.com/jquery-3.5.1.js"
 	        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="scripts/themeChange.js"></script>
-	<script type="text/javascript" src="scripts/albumFinder.js"></script>
+	<script type="text/javascript" src="scripts/js/themeChange.js"></script>
+	<script type="text/javascript" src="scripts/js/albumFinder.js"></script>
 </head>
 <body>
 <?php include 'master/header.php'?>
@@ -38,7 +38,7 @@
 	<div id="album"></div>
 </div>
 
-<?php include "master/scriptAlbumFinder.php" ?>
+<?php include "scripts/php/scriptAlbumFinder.php" ?>
 
 <br/>
 

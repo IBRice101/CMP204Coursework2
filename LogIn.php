@@ -18,7 +18,7 @@
 		<!--Scripts-->
 		<script src="https://code.jquery.com/jquery-3.5.1.js"
                 integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="scripts/themeChange.js"></script>
+		<script type="text/javascript" src="scripts/js/themeChange.js"></script>
 	</head>
 	<body>
 		<?php include 'master/header.php'?>
@@ -27,7 +27,7 @@
         
         <div class="container">
             <h1>Log In</h1>
-            <form action="master/scriptLogIn.php" method="post">
+            <form action="scripts/php/scriptLogIn.php" method="post">
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">

@@ -18,7 +18,7 @@
 		<!--Scripts-->
 		<script src="https://code.jquery.com/jquery-3.5.1.js"
                 integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="scripts/themeChange.js"></script>
+		<script type="text/javascript" src="scripts/js/themeChange.js"></script>
 	</head>
 	<body>
 		<?php include 'master/header.php'?>
@@ -27,7 +27,7 @@
         
         <div class="container">
             <h1>Sign Up</h1>
-            <form action="master/scriptSignUp.php" method="post">
+            <form action="scripts/php/scriptSignUp.php" method="post">
                 <div class="form-group">
                     <label for="firstName" class="formLabel">First Name:</label>
                     <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Forename">
