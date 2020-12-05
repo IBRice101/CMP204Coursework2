@@ -27,18 +27,17 @@
 <br/>
 
 <div class="container">
-	<div class="row">
-		<h1>Album Finder</h1>
-		<p>Type in a Daft Punk song and this page will tell you which album it came from</p>
-	</div>
-	<div class="row">
-		<form action="">
-			<label for="song">Song:</label>
-			<input type="text" id="song" name="song" placeholder="Daft Punk Song">
-			<button type="submit" id="submitSong" onclick="findSong(this.value)">Submit Song</button>
-		</form>
-	</div>
+	<h1>Album Finder</h1>
+	<br>
+	<p>Type in a Daft Punk song and this page will tell you which album it came from</p>
+	<form action="">
+		<label for="song">Song:</label>
+		<input type="text" id="song" name="song" placeholder="Daft Punk Song">
+		<button type="submit" id="submitSong" onclick="findSong(this.value)">Submit Song</button>
+	</form>
 </div>
+
+<br/>
 
 <?php include 'master/footer.php'?>
 </body>
