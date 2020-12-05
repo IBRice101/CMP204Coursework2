@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Log in - Daft Punk</title>
+	<title>Album Finder - Daft Punk</title>
 	<meta name="description" content="Daft Punk fansite for CMP204 coursework">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -30,7 +30,7 @@
 	<h1>Album Finder</h1>
 	<br>
 	<p>Type in a Daft Punk song and this page will tell you which album it came from</p>
-	<form action="">
+	<form action="" method="get">
 		<label for="song">Song:</label>
 		<input type="text" id="song" name="song" placeholder="Daft Punk Song">
 		<button type="submit" id="submitSong" onclick="findSong(this.value)">Submit Song</button>

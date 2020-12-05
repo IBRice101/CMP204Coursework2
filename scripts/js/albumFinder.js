@@ -5,6 +5,6 @@ function findSong(song) {
             document.getElementById("album").innerHTML = this.responseText;
         }
     }
-    xhr.open("GET", "../master/scriptAlbumFinder.php?q="+song, true);
-    xhr.send();
+    xhr.open("GET", "../php/scriptAlbumFinder.php?q=" + song, true);
+    xhr.send(song);
 }

@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Log in - Daft Punk</title>
+	<title>Your Account - Daft Punk</title>
 	<meta name="description" content="Daft Punk fansite for CMP204 coursework">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
