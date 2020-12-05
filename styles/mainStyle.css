@@ -96,6 +96,14 @@ button {
     color: #232323;
 }
 
+.usrInfo {
+    display:inline-block;
+}
+
+.usrInfo:hover {
+    background-color: #AAA9AD;
+}
+
 footer {
     background-color: var(--footer);
     height: auto;

@@ -25,7 +25,23 @@
 
 <br/>
 
-<!-- content -->
+<div class="container">
+	<div class="row">
+		<h1>[firstname]'s Account</h1>
+	</div>
+	<div class="row">
+		<div class="col">
+			<h2>Change user info</h2>
+			<button class="usrInfo" id="changeName">Change your Name</button>
+			<button class="usrInfo" id="changeEmail">Change your Email</button>
+			<button class="usrInfo" id="changePassword">Change your Password</button>
+		</div>
+		<div class="col">
+			<h2>Delete account</h2>
+			<button class="usrInfo" id="deleteAccount">Delete your Account</button>
+		</div>
+	</div>
+</div>
 
 <?php include 'master/footer.php'?>
 </body>
