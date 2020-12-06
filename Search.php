@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Album Finder - Daft Punk</title>
+	<title>Search - Daft Punk</title>
 	<meta name="description" content="Daft Punk fansite for CMP204 coursework">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -19,7 +19,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js"
 	        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="scripts/js/themeChange.js"></script>
-	<script type="text/javascript" src="scripts/js/albumFinder.js"></script>
+	<script type="text/javascript" src="scripts/js/search.js"></script>
 </head>
 <body>
 <?php include 'master/header.php'?>
@@ -29,16 +29,16 @@
 <div class="container">
 	<h1>Album Finder</h1>
 	<br>
-	<p>Type in a Daft Punk song and this page will tell you which album it came from</p>
+	<p>Type in a Daft Punk album and this page will give you a Spotify playlist of that album</p>
+	<p>(Type "Other" for their non-album work)</p>
 	<form action="" method="get">
-		<label for="song">Song:</label>
-		<input type="text" id="song" name="song" placeholder="Daft Punk Song">
-		<button type="submit" id="submitSong" onclick="findSong(this.value)">Submit Song</button>
+		<label for="album">Song:</label>
+		<input type="text" id="album" name="album" placeholder="Daft Punk Album">
+		<button type="submit" id="submitAlbum" onclick="findAlbum(this.value)">Search</button>
 	</form>
-	<div id="album"></div>
 </div>
 
-<?php include "scripts/php/scriptAlbumFinder.php" ?>
+<?php include "scripts/php/scriptSearch.php" ?>
 
 <br/>
 
