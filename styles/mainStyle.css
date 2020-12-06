@@ -119,11 +119,12 @@ footer p {
 
 footer a {
     color: var(--alt-p);
+    background-color: var(--h);
     padding: 10px;
 }
 
 footer a:hover {
-    color: var(--header);
+    background-color: var(--footer);
 }
 
 iframe {
