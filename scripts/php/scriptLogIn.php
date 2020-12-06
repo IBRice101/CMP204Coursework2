@@ -50,10 +50,40 @@
 	$conn = mysqli_connect($servername, $usernameSQL, $passwordSQL, $dbname);
 	
 	if (!$conn) {
-		die("Connection failed:" . mysqli_connect_error());
+		die("Connection failed: " . mysqli_connect_error());
 	}
 	
-	$sql = "SELECT id FROM myUsers WHERE email = '$email' and password = '$pword'";
+	$sql = "SELECT * FROM myUsers WHERE email = '$email' AND password = '$pword'";
 	$result = mysqli_query($conn, $sql);
+	
+	$id = "SELECT id FROM myusers WHERE email = '$email'";
+	$firstname = "SELECT firstname FROM myusers WHERE email = '$email'";
+	
+	if (mysqli_num_rows($result) == 1) {
+		echo "
+		<head>
+			<link rel='stylesheet' href='../../styles/mainStyle.css'/>
+		</head>
+		<body>
+			<h1>You Have Successfully Logged in! Welcome $firstname</h1>
+		</body>";
+		sleep(3);
+		
+		$_SESSION["loggedIn"] = true;
+		$_SESSION["id"] = $id;
+		$_SESSION["firstname"] = $firstname;
+		header("Location: ../../index.php");
+	} else {
+		echo "
+		<head>
+			<link rel='stylesheet' href='../../styles/mainStyle.css'/>
+		</head>
+		<body>
+			<h1>Something went wrong! Are you sure you put in the right email/password?</h1>
+		</body>";
+		sleep(3);
+		
+		header("Location: ../../LogIn.php");
+	}
 	
 	mysqli_close($conn);

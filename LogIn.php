@@ -27,14 +27,14 @@
         
         <div class="container">
             <h1>Log In</h1>
-            <form action="scripts/php/scriptLogIn.php" method="post">
+            <form action="scripts/php/scriptLogIn.php" method="POST">
                 <div class="form-group">
                     <label for="email" class="formLabel">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                 </div>
                 <div class="form-group">
-                    <label for="password" class="formLabel">Password</label>
-                    <input type="password" class="form-control" id="password" name="pword" placeholder="Password">
+                    <label for="pword" class="formLabel">Password</label>
+                    <input type="password" class="form-control" id="pword" name="pword" placeholder="Password">
                 </div>
                 <button type="submit" id="submit">Submit</button>
 				<button type="reset" id="reset">Reset</button>
