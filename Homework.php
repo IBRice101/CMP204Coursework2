@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    <?php include 'master\header.php' ?>
+    <?php include 'master/header.php' ?>
 
         <!-- Retrieved from: https://909originals.com/2019/01/20/the-story-behind-the-iconic-album-cover-for-daft-punks-homework/-->
         <img src="media/Homework/Homework.jpg" alt="Homework Album Cover" width="500" height="500"
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-    <?php include 'master\footer.php'?>
+    <?php include 'master/footer.php'?>
 
     </body>
 </html>

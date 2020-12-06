@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    <?php include 'master\header.php' ?>
+    <?php include 'master/header.php' ?>
 
         <!-- Retrieved from: https://upload.wikimedia.org/wikipedia/en/3/39/Tron_Legacy_Soundtrack.jpg -->
         <img src="media/Other/Tron.jpg" alt="Tron: Legacy Original Soundtrack Album Cover" width="500" height="500"
@@ -149,7 +149,7 @@
             </div>
         </div>
 
-    <?php include 'master\footer.php'?>
+    <?php include 'master/footer.php'?>
 
     </body>
 </html>

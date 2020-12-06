@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    <?php include 'master\header.php' ?>
+    <?php include 'master/header.php' ?>
 
         <!-- Retrieved from: https://upload.wikimedia.org/wikipedia/en/4/49/Daft_Punk_Alive_2007.JPG -->
         <img src="media/Live/Alive2007.jpg" alt="Alive 2007 Album Cover" width="500" height="500" class="cover-center"/>
@@ -151,7 +151,7 @@
             </div>
         </div>
 
-    <?php include 'master\footer.php'?>
+    <?php include 'master/footer.php'?>
 
     </body>
 </html>

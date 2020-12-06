@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    <?php include 'master\header.php' ?>
+    <?php include 'master/header.php' ?>
 
         <!-- Retrieved from: https://upload.wikimedia.org/wikipedia/en/a/ae/Daft_Punk_-_Discovery.jpg -->
         <img src="media/Discovery/Discovery.jpg" alt="Discovery Album Cover" width="500" height="500"
@@ -102,6 +102,6 @@
             </div>
         </div>
 
-    <?php include 'master\footer.php'?>
+    <?php include 'master/footer.php'?>
     </body>
 </html>

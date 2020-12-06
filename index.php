@@ -27,7 +27,7 @@
     </head>
     <body>
 
-    <?php include 'master\header.php'?>
+    <?php include 'master/header.php'?>
         
         <div class="container">
             <div class="carousel">
