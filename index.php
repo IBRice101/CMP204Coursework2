@@ -27,7 +27,9 @@
     </head>
     <body>
 
-    <?php include 'master/header.php'?>
+    <?php
+		session_start();
+		include ('master/header.php') ?>
         
         <div class="container">
             <div class="carousel">
@@ -138,12 +140,13 @@
         <div class="container">
             <h1 id="time" ></h1>
         </div>
+	
+    	<?php include('master/footer.php')?>
 
         <!--From https://cookieconsent.popupsmart.com/-->
         <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
     	<script type="text/javascript" src="scripts/js/cookieConsent.js"></script>
-
-    <?php include 'master\footer.php'?>
+	
 
     </body>
 </html>
