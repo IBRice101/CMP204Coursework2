@@ -21,7 +21,7 @@
 		<script type="text/javascript" src="scripts/js/themeChange.js"></script>
 	</head>
 	<body>
-		<?php include 'master/header.php'?>
+		<?php session_start(); include ('master/header.php') ?>
         
         <br/>
         
@@ -46,6 +46,6 @@
 			<br/>
         </div>
   
-		<?php include 'master/footer.php'?>
+		<?php include ('master/footer.php') ?>
 	</body>
 </html>

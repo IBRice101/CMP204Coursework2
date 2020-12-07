@@ -27,9 +27,7 @@
     </head>
     <body>
 
-    <?php
-		session_start();
-		include ('master/header.php') ?>
+    <?php session_start(); include ('master/header.php') ?>
         
         <div class="container">
             <div class="carousel">

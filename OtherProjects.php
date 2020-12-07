@@ -149,7 +149,7 @@
             </div>
         </div>
 
-    <?php include 'master/footer.php'?>
+    <?php include ('master/footer.php') ?>
 
     </body>
 </html>

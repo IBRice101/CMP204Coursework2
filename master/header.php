@@ -1,5 +1,5 @@
 <?php
-	if(isset($_SESSION["loggedIn"]) || $_SESSION["loggedIn"] == true){
+	if(isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] == true){
 		?>
 		<header>
             <div class="logo">

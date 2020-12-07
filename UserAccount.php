@@ -1,3 +1,6 @@
+<?php
+	if(isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] == true){
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -19,15 +22,16 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js"
 	        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="scripts/js/themeChange.js"></script>
+	<script type="text/javascript" src="scripts/js/account.js"></script>
 </head>
 <body>
-<?php include 'master/header.php'?>
+<?php session_start(); include 'master/header.php'?>
 
 <br/>
 
 <div class="container">
 	<div class="row">
-		<h1>[firstname]'s Account</h1>
+		<h1><?php echo htmlspecialchars($_SESSION["firstname"]); ?>'s account</h1>
 	</div>
 	<div class="row">
 		<div class="col">
@@ -43,6 +47,9 @@
 	</div>
 </div>
 
-<?php include 'master/footer.php'?>
+<?php include ('master/footer.php') ?>
 </body>
 </html>
+<?php } else {
+		echo "Access denied";
+	}

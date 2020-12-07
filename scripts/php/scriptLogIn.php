@@ -57,20 +57,20 @@
 		
 		$sql = "SELECT id, firstname, lastname, email, password FROM myUsers WHERE email = ?";
 		
-		if ($stmt = mysqli_prepare($conn, $sql)) {
-			mysqli_stmt_bind_param($stmt, "s", $email);
+		if ($statement = mysqli_prepare($conn, $sql)) {
+			mysqli_stmt_bind_param($statement, "s", $email);
 			
-			if (mysqli_stmt_execute($stmt)) {
-				mysqli_stmt_store_result($stmt);
+			if (mysqli_stmt_execute($statement)) {
+				mysqli_stmt_store_result($statement);
 				
-				if (mysqli_stmt_num_rows($stmt) == 1) {
-					mysqli_stmt_bind_result($stmt, $id, $firstname, $lastname, $email, $sqlPassword);
+				if (mysqli_stmt_num_rows($statement) == 1) {
+					mysqli_stmt_bind_result($statement, $id, $firstname, $lastname, $email, $sqlPassword);
 					
-					if (mysqli_stmt_fetch($stmt)) {
+					if (mysqli_stmt_fetch($statement)) {
 						if (password_verify($pword, $sqlPassword)) {
 							session_start();
 							
-							$_SESSION["loggedIn"] = true;
+							$_SESSION["loggedin"] = true;
 							$_SESSION["id"] = $id;
 							$_SESSION["email"] = $email;
 							$_SESSION["firstname"] = $firstname;
@@ -118,7 +118,7 @@
 				
 				sleep(3);
 				header("location: ../../LogIn.php");
-			} mysqli_stmt_close($stmt);
+			} mysqli_stmt_close($statement);
 		} mysqli_close($conn);
 	}
 	
