@@ -76,17 +76,25 @@
 							$_SESSION["firstname"] = $firstname;
 							$_SESSION["lastname"] = $lastname;
 							
+							echo '<head>
+							<link rel="stylesheet" href="styles/mainStyle.css">
+							</head>
+							<body>
+							<h1>Welcome to the site, you have successfully logged in!</h1>
+							</body>';
 							
-							
+							sleep(3);
 							header("location: ../../index.php");
 						} else {
-							echo '
-							<head>
+							echo '<head>
 							<link rel="stylesheet" href="styles/mainStyle.css">
 							</head>
 							<body>
 							<h1>Password is invalid</h1>
 							</body>';
+							
+							sleep(3);
+							header("location: ../../LogIn.php");
 						}
 					}
 				} else {
@@ -96,6 +104,9 @@
 						<body>
 						<h1>There is no account associated with that email address</h1>
 						</body>';
+					
+					sleep(3);
+					header("location: ../../LogIn.php");
 				}
 			} else {
 				echo '<head>
@@ -104,6 +115,9 @@
 						<body>
 						<h1>Unknown Error</h1>
 						</body>';
+				
+				sleep(3);
+				header("location: ../../LogIn.php");
 			} mysqli_stmt_close($stmt);
 		} mysqli_close($conn);
 	}

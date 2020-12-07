@@ -4,7 +4,6 @@
 		<img src="media\Logo\Daft_Punk_Logo_Black.png" alt="Daft Punk Logo" width="70px" height="50px"/>
 		<br/>
 	</div>
-	<br/>
 	<p>Website Submitted 15/12/2020 by Isaac Basque-Rice
 		<br/>
 	<li><a href="req.html">Requirements Specification</a></li>

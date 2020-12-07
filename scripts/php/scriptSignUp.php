@@ -92,15 +92,15 @@
 	$sql = "INSERT INTO myUsers (firstname, lastname, email, password) VALUES ('$firstName', '$lastName', '$email', '$pword')";
 
 	if (mysqli_query($conn, $sql)) {
-		echo "
+		echo '
 		<head>
-			<link rel='stylesheet' href='../../styles/mainStyle.css'/>
+			<link rel="stylesheet" href="../../styles/mainStyle.css">
 		</head>
 		<body>
 			<h1>New User Created</h1>
-		</body>";
+		</body>';
 		sleep(3);
-		header("location: ../../index.php");
+		header("location: ../../LogIn.php");
     } else {
 	    echo "<p class='error'> There was an error </p>";
 	    echo "Error: " . $sql . mysqli_error($conn);

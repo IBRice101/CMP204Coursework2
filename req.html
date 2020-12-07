@@ -47,8 +47,12 @@
     </tr>
     <tr>
         <td>User login functionality (PHP/MySQL)</td>
-        <td></td>
-        <td></td>
+        <td>Once a user has created an account, they are directed to the login page wherein they put their email and
+            password, scriptLogIn.php contains, after the necessary validation and stripping of inputs, a set of nested
+            if statements which do a series of checks relating to password and email validation etc, which (in turn)
+            binds variables to a prepared statement, stores the result, binds the remaining variables relating to first
+            and last names etc, and then finally initialises a session variable which keeps the user logged in </td>
+        <td>scriptLogIn.php</td>
     </tr>
     <tr>
         <td>Ability to select, add, edit and delete information from a database (PHP/MySQL)</td>
@@ -61,9 +65,9 @@
             <br/>
             Delete - Users can delete their account through the User Account page
         </td>
-        <td>Select -
+        <td>Select - scriptLogIn.php
             <br/>
-            Add -
+            Add - scriptSignUp.php
             <br/>
             Edit -
             <br/>
@@ -87,11 +91,12 @@
             <br/>
             scriptSignUp.php - variable $sql set to INSERT sign up form values to the corresponding data fields
             <br/>
-            scriptLogIn.php - variable $sql set to <!-- whatever SQL query does -->
+            scriptLogIn.php - variable $sql set to SELECT relevant data from the myUsers database where the email is
+            user inputted
         </td>
-        <td>scriptSignUp.php - lines 84 & 91
+        <td>scriptSignUp.php
             <br/>
-            scriptLogIn.php - lines 50 & 56
+            scriptLogIn.php
         </td>
     </tr>
     <tr>
