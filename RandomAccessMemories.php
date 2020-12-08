@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    <?php include 'master/header.php' ?>
+    <?php session_start(); include ('master/header.php') ?>
 
         <!-- Retrieved from: https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg -->
         <img src="media/RandomAccessMemories/RandomAccessMemories.jpg" alt="Random Random Access Memories Album Cover"
