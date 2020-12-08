@@ -89,21 +89,24 @@
     }
 
 	// Insertion of user information
-	$sql = "INSERT INTO myUsers (firstname, lastname, email, password) VALUES ('$firstName', '$lastName', '$email', '$pword')";
-
-	if (mysqli_query($conn, $sql)) {
-		echo '
+	$sql = "INSERT INTO myUsers (firstname, lastname, email, password) VALUES (?, ?, ?, ?)";
+	
+	if ($stmt = mysqli_prepare($conn, $sql)) {
+		mysqli_stmt_bind_param($stmt, "ssss", $firstName, $lastName, $email, $pword);
+		if (mysqli_stmt_execute($stmt)) {
+			echo '
 		<head>
 			<link rel="stylesheet" href="../../styles/mainStyle.css">
 		</head>
 		<body>
 			<h1>New User Created</h1>
 		</body>';
-		sleep(3);
-		header("location: ../../LogIn.php");
-    } else {
-	    echo "<p class='error'> There was an error </p>";
-	    echo "Error: " . $sql . mysqli_error($conn);
+			sleep(3);
+			header("location: ../../LogIn.php");
+		} else {
+			echo "<p class='error'> There was an error </p>";
+			echo "Error: " . $sql . mysqli_error($conn);
+        }
     }
 
 	mysqli_close($conn);

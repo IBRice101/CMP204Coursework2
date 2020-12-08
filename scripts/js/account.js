@@ -15,3 +15,7 @@ function changePassword() {
 function deleteAccount() {
 
 }
+
+function signOut() {
+
+}

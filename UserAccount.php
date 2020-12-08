@@ -36,13 +36,19 @@
 	<div class="row">
 		<div class="col">
 			<h2>Change user info</h2>
-			<button class="usrInfo" id="changeName">Change your Name</button>
-			<button class="usrInfo" id="changeEmail">Change your Email</button>
-			<button class="usrInfo" id="changePassword">Change your Password</button>
+			<button class="usrInfo" id="changeName" onclick="changeName()">Change your Name</button>
+			<button class="usrInfo" id="changeEmail" onclick="changeEmail()">Change your Email</button>
+			<button class="usrInfo" id="changePassword" onclick="changePassword()">Change your Password</button>
 		</div>
 		<div class="col">
 			<h2>Delete account</h2>
-			<button class="usrInfo" id="deleteAccount">Delete your Account</button>
+			<button class="usrInfo" id="deleteAccount" onclick="deleteAccount()">Delete your Account</button>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h2>Sign Out</h2>
+				<button class="usrInfo" id="signOut" onclick="signOut()">Sign out from your account</button>
+			</div>
 		</div>
 	</div>
 </div>

@@ -77,7 +77,7 @@
 							$_SESSION["lastname"] = $lastname;
 							
 							echo '<head>
-							<link rel="stylesheet" href="styles/mainStyle.css">
+							<link rel="stylesheet" href="styles/mainStyle.css"><title>Welcome!</title>
 							</head>
 							<body>
 							<h1>Welcome to the site, you have successfully logged in!</h1>
@@ -87,7 +87,7 @@
 							header("location: ../../index.php");
 						} else {
 							echo '<head>
-							<link rel="stylesheet" href="styles/mainStyle.css">
+							<link rel="stylesheet" href="styles/mainStyle.css"><title>Incorrect Password</title>
 							</head>
 							<body>
 							<h1>Password is invalid</h1>
@@ -99,7 +99,7 @@
 					}
 				} else {
 					echo '<head>
-						<link rel="stylesheet" href="styles/mainStyle.css">
+						<link rel="stylesheet" href="styles/mainStyle.css"><title>Incorrect Email Address</title>
 						</head>
 						<body>
 						<h1>There is no account associated with that email address</h1>
@@ -110,7 +110,7 @@
 				}
 			} else {
 				echo '<head>
-						<link rel="stylesheet" href="styles/mainStyle.css">
+						<link rel="stylesheet" href="styles/mainStyle.css"><title>Unknown Error</title>
 						</head>
 						<body>
 						<h1>Unknown Error</h1>
