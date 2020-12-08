@@ -16,6 +16,7 @@
                 <li><a href="RandomAccessMemories.php">Random Access Memories</a></li>
                 <li><a href="Live.php">Live work</a></li>
                 <li><a href="OtherProjects.php">Other Projects</a></li>
+				<li><a href="Blog.php">Blog</a></li>
                 <li><a href="UserAccount.php"><?php echo htmlspecialchars($_SESSION["firstname"]); ?></a></li>
             </div>
         </header>
@@ -37,6 +38,7 @@
 				<li><a href="RandomAccessMemories.php">Random Access Memories</a></li>
 				<li><a href="Live.php">Live work</a></li>
 				<li><a href="OtherProjects.php">Other Projects</a></li>
+				<li><a href="Blog.php">Blog</a></li>
 				<li><a href="SignUp.php">Sign Up</a></li>
 			</div>
 		</header>
