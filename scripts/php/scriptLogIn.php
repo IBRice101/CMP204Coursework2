@@ -57,16 +57,16 @@
 		
 		$sql = "SELECT id, firstname, lastname, email, password FROM myUsers WHERE email = ?";
 		
-		if ($statement = mysqli_prepare($conn, $sql)) {
-			mysqli_stmt_bind_param($statement, "s", $email);
+		if ($state = mysqli_prepare($conn, $sql)) {
+			mysqli_stmt_bind_param($state, "s", $email);
 			
-			if (mysqli_stmt_execute($statement)) {
-				mysqli_stmt_store_result($statement);
+			if (mysqli_stmt_execute($state)) {
+				mysqli_stmt_store_result($state);
 				
-				if (mysqli_stmt_num_rows($statement) == 1) {
-					mysqli_stmt_bind_result($statement, $id, $firstname, $lastname, $email, $sqlPassword);
+				if (mysqli_stmt_num_rows($state) == 1) {
+					mysqli_stmt_bind_result($state, $id, $firstname, $lastname, $email, $sqlPassword);
 					
-					if (mysqli_stmt_fetch($statement)) {
+					if (mysqli_stmt_fetch($state)) {
 						if (password_verify($pword, $sqlPassword)) {
 							session_start();
 							
@@ -118,7 +118,7 @@
 				
 				sleep(3);
 				header("location: ../../LogIn.php");
-			} mysqli_stmt_close($statement);
+			} mysqli_stmt_close($state);
 		} mysqli_close($conn);
 	}
 	

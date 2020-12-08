@@ -87,7 +87,8 @@
     <tr>
         <td>SQL queries should be written as prepared statements</td>
         <td>SQL connection string set to $conn variable in both scriptLogIn.php and scriptSignUp.php with server creds
-            passed to mysqli_connect() function as arguments
+            passed to mysqli_connect() function as arguments and expressed in the SQL queries as ?. additionally usage
+            of the mysqli_prepare(); function is used in both instances.
             <br/>
             scriptSignUp.php - variable $sql set to INSERT sign up form values to the corresponding data fields
             <br/>
