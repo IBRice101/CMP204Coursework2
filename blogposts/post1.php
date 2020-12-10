@@ -52,8 +52,6 @@
 
 <h2> 4. Human After All </h2>
 
-![Humanafterall.jpg](https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Humanafterall.jpg/220px-Humanafterall.jpg)
-
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Humanafterall.jpg/220px-Humanafterall.jpg" alt="The cover of Human After All">
 
 <p>Proin sed ex tincidunt, sollicitudin risus et, venenatis turpis. Etiam et libero luctus, pulvinar purus at, venenatis
