@@ -28,7 +28,16 @@
 	
 		<?php session_start(); include ('master/header.php') ?>
 		
-		
+		<div class="container">
+			<div id="blogSpace">
+				<h1>Welcome to the Daft Punk Blog!</h1>
+				<button id="load" onclick="loadBlog();"> Get the first article! </button>
+			</div>
+		</div>
+
+		<button class="blogChoice" id="left" name="left" onclick="numDown();"><- Previous</button>
+		<p class="blogChoice">Daft Punk Blog</p>
+		<button class="blogChoice" id="right" name="right" onclick="numUp();">Next -></button>
 		
 		<?php include ('master/footer.php') ?>
 	</body>

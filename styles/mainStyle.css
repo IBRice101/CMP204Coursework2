@@ -164,3 +164,9 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+.blogChoice {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
