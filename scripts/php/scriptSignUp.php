@@ -75,7 +75,7 @@
 	$pword = password_hash($pword, PASSWORD_DEFAULT);
 	
 	// With thanks to Lynsay A. Shepherd
-    // NOTE: do not push this to public with ur real creds
+    
     $servername = "lochnagar.abertay.ac.uk";
 	$usernameSQL = "sql1901124";
 	$passwordSQL = "tHvLZSxWZ4ex";
