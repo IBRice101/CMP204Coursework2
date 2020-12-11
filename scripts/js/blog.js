@@ -1,7 +1,4 @@
-//TODO: Figure out how tf to get these arrows working
-
 let blogNum = 1;
-let postLocation =  "blogposts/post" + blogNum + ".php";
 
 function numUp() {
     blogNum++;
@@ -29,7 +26,5 @@ function numDown() {
 }
 
 function loadBlog () {
-    $(document).ready(function () {
-        $("#blogSpace").load(postLocation);
-    })
+    $("#blogSpace").load("blogposts/post" + blogNum + ".php");
 }

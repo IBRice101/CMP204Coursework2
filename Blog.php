@@ -35,9 +35,11 @@
 			</div>
 		</div>
 
-		<button class="blogChoice" id="left" name="left" onclick="numDown();"><- Previous</button>
-		<p class="blogChoice">Daft Punk Blog</p>
-		<button class="blogChoice" id="right" name="right" onclick="numUp();">Next -></button>
+		<div class="container">
+			<button class="blogChoice" id="left" name="left" onclick="numDown(); loadBlog();"><- Previous</button>
+			<p class="blogChoice">Daft Punk Blog</p>
+			<button class="blogChoice" id="right" name="right" onclick="numUp(); loadBlog();">Next -></button>
+		</div>
 		
 		<?php include ('master/footer.php') ?>
 	</body>
