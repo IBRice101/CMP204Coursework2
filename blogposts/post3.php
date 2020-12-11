@@ -10,7 +10,7 @@
 	blandit nulla. Donec et orci feugiat, convallis eros at, aliquam leo. Curabitur imperdiet, nibh a fermentum semper,
 	orci risus interdum tellus, et rhoncus dui lorem ut tortor.</p>
 
-![Daft Punk's Helmets Originally Had Wigs - Fact Fiend](https://lh3.googleusercontent.com/proxy/JtSWIwEd-UESiuukzcpLl9hbewP-BesqrL_sB_SnnOsmpbV12wJF7sMhRdvrkd6ltZY3PoxYJM9c8j7CGzQqErFR-8oxCyLsOvkFOIXib27aC2Avd5Di1NxFKUlG)
+<img src="https://lh3.googleusercontent.com/proxy/JtSWIwEd-UESiuukzcpLl9hbewP-BesqrL_sB_SnnOsmpbV12wJF7sMhRdvrkd6ltZY3PoxYJM9c8j7CGzQqErFR-8oxCyLsOvkFOIXib27aC2Avd5Di1NxFKUlG" alt="Daft Punk's Helmets Originally Had Wigs - Fact Fiend">
 
 <p>Nam volutpat quam nec metus suscipit, quis congue ante gravida. Curabitur ac vulputate dui. Nam iaculis eget eros
 	quis rhoncus. Ut vel viverra sem. Fusce lobortis eros lectus, at maximus mi suscipit eget. Vivamus ornare id magna
@@ -21,10 +21,11 @@
 	semper. In efficitur nunc ac justo aliquet aliquam. Ut neque tellus, dictum vitae eros eget, vestibulum mollis
 	metus. Praesent sit amet diam sapien.</p>
 
-![Daft Punk: The men behind the masks](https://www.gannett-cdn.com/media/USATODAY/USATODAY/2014/01/31//1391183046004-DAFTPUNK5.JPG?width=2560)
+![Daft Punk: The men behind the masks]
+<img src="https://www.gannett-cdn.com/media/USATODAY/USATODAY/2014/01/31//1391183046004-DAFTPUNK5.JPG?width=2560" alt="Daft Punk: The men behind the masks">
 
 <p>Curabitur nec justo at quam tempor luctus. Nulla egestas viverra urna, et posuere nisi ultrices et. Nullam id augue
 	egestas, convallis dui semper, pulvinar justo. In porta libero vitae vestibulum imperdiet. Maecenas nec iaculis
 	ipsum. Curabitur congue mauris ac bibendum vestibulum. Nulla ultrices eros vitae orci sagittis gravida. </p>
 
-![Daft Punk Without Their Helmets](https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/daft-punk-unmasked-1.jpg)
+<img src="https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/daft-punk-unmasked-1.jpg" alt="Daft Punk Without Their Helmets">
