@@ -23,6 +23,7 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.js"
 				integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="scripts/js/themeChange.js"></script>
+		<script type="text/javascript" src="scripts/js/passwordChangeFormAppear.js"></script>
 	</head>
 	<body>
 	<?php session_start(); include 'master/header.php'?>
@@ -35,7 +36,8 @@
 		</div>
 		<div class="col">
 			<h2>Change user info</h2>
-			<a href="scripts/php/UserAccount/ChangePassword.php" class="usrAcc" >Change your Password</a>
+			<button class="usrAcc" onclick="appear();">Change your Password</button>
+			<div id="pwordChangeForm"></div>
 		</div>
 		<div class="col">
 			<h2>Delete account</h2>
