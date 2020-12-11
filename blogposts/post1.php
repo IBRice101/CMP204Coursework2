@@ -8,7 +8,7 @@
 
 <h2> 1. Random Access Memories </h2>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg" alt="The cover of Random Access Memories">
+<img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg" alt="The cover of Random Access Memories" width="500" height="500">
 
 <p>Integer euismod lorem et neque venenatis, et pharetra quam ultrices. Praesent ipsum purus, blandit vel molestie eu,
 	congue ut nibh. Donec eu dapibus nisl. Maecenas molestie elit vel odio auctor, venenatis dignissim urna vulputate.
@@ -24,7 +24,7 @@
 
 <h2> 2. Discovery </h2>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Daft_Punk_-_Discovery.jpg/220px-Daft_Punk_-_Discovery.jpg" alt='The standard release cover: a black background with liquid metal forming the words "Daft Punk"'>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Daft_Punk_-_Discovery.jpg/220px-Daft_Punk_-_Discovery.jpg" alt='The standard release cover: a black background with liquid metal forming the words "Daft Punk"' width="500" height="500">
 
 <p>Nullam mollis enim nisi, et lobortis neque lacinia eu. Nulla elementum, sem id ornare molestie, arcu turpis elementum
 	lorem, vel efficitur orci diam vitae lectus. Nullam lectus nibh, consequat maximus sollicitudin vitae, sollicitudin
@@ -39,7 +39,7 @@
 
 <h2> 3. Homework </h2>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Daftpunk-homework.jpg/220px-Daftpunk-homework.jpg" alt="The cover of Homework">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Daftpunk-homework.jpg/220px-Daftpunk-homework.jpg" alt="The cover of Homework" width="500" height="500">
 
 <p> Pellentesque elementum malesuada auctor. Mauris nec nibh hendrerit, viverra lacus nec, finibus felis. Donec sed
 	tortor  consectetur, faucibus ex vitae, maximus nunc. Donec vel sapien quis libero fermentum lobortis sed a dui.
@@ -52,7 +52,7 @@
 
 <h2> 4. Human After All </h2>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Humanafterall.jpg/220px-Humanafterall.jpg" alt="The cover of Human After All">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Humanafterall.jpg/220px-Humanafterall.jpg" alt="The cover of Human After All" width="500" height="500">
 
 <p>Proin sed ex tincidunt, sollicitudin risus et, venenatis turpis. Etiam et libero luctus, pulvinar purus at, venenatis
 	magna. Maecenas ut rhoncus nisi. Donec convallis tellus sed imperdiet lacinia. Aliquam iaculis eget lectus nec

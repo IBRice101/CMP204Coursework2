@@ -1,6 +1,6 @@
 <h1> If you like Daft Punk you'll like: </h1>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Breakbot_1.jpg/1024px-Breakbot_1.jpg" alt="Breakbot at the Festival Internacional de Benicàssim">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Breakbot_1.jpg/1024px-Breakbot_1.jpg" alt="Breakbot at the Festival Internacional de Benicàssim" width="500">
 
 <p>Sed ut sem gravida, vestibulum urna a, accumsan nibh. Quisque et velit ipsum. Morbi magna felis, bibendum et
 	convallis a, feugiat eget neque. Curabitur nisl neque, euismod vel pharetra et, vulputate ac risus. Quisque mollis
@@ -16,7 +16,7 @@
 	venenatis nunc dictum efficitur ornare. Aliquam tempor rutrum vestibulum. Sed elit risus, bibendum in est in,
 	ullamcorper rhoncus augue.</p>
 
-<img src="https://i.ytimg.com/vi/ahdH8eTydWY/maxresdefault.jpg" alt="Breakbot - Baby I'm Yours - YouTube">
+<img src="https://i.ytimg.com/vi/ahdH8eTydWY/maxresdefault.jpg" alt="Breakbot - Baby I'm Yours - YouTube" width="500">
 
 <p>Suspendisse potenti. Suspendisse potenti. Donec sagittis tincidunt risus, eget tincidunt lacus bibendum eget.
 	Quisque non urna quis leo luctus pellentesque. Vivamus sed nunc magna. Fusce ut arcu vitae lectus mollis gravida et
@@ -30,9 +30,9 @@
 	nunc. Phasellus tempus accumsan ligula eget pulvinar. Aenean a efficitur magna. Nullam fringilla turpis nec quam
 	luctus, sit amet luctus nisi rhoncus. </p>
 
-<img src="https://i.ytimg.com/vi/VKzWLUQizz8/maxresdefault.jpg" alt="Justice - Genesis - † - YouTube">
+<img src="https://i.ytimg.com/vi/VKzWLUQizz8/maxresdefault.jpg" alt="Justice - Genesis - † - YouTube" width="500">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Justice.png" alt="Justice (band) - Wikipedia">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Justice.png" alt="Justice (band) - Wikipedia" width="500">
 
 <p>Mauris non interdum augue. Morbi ornare lobortis felis eu tempus. Mauris luctus tortor et libero tempor pharetra.
 	Aliquam venenatis elit vitae erat vestibulum auctor. Vivamus varius diam ut tellus euismod, vitae ultricies est
@@ -50,9 +50,9 @@
 	Quisque luctus, ipsum at suscipit tincidunt, arcu risus varius est, eu rhoncus neque velit in odio. Curabitur non
 	eros urna. </p>
 
-<img src="https://djmag.com/sites/default/files/article/image/ED%20BANGER%20HEADER%20IMAGE.jpg" alt="Go bang! Celebrating 15 years of Ed Banger in 15 key releases">
+<img src="https://djmag.com/sites/default/files/article/image/ED%20BANGER%20HEADER%20IMAGE.jpg" alt="Go bang! Celebrating 15 years of Ed Banger in 15 key releases" width="500">
 
-<img src="https://yt3.ggpht.com/ytc/AAUvwngLH2rVZIC6Xiae-8Y-ETE8d4VYT9vbOem8M5VU=s900-c-k-c0x00ffffff-no-rj" alt="Ed Banger Records - YouTube">
+<img src="https://yt3.ggpht.com/ytc/AAUvwngLH2rVZIC6Xiae-8Y-ETE8d4VYT9vbOem8M5VU=s900-c-k-c0x00ffffff-no-rj" alt="Ed Banger Records - YouTube" width="500">
 
 <p>Etiam velit tortor, porttitor ut laoreet nec, porta sed elit. Ut ut velit sit amet quam bibendum consectetur.
 	Curabitur eget felis nibh. Aliquam at semper justo. Sed non tellus sagittis libero pharetra fermentum. Curabitur

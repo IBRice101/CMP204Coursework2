@@ -1,6 +1,6 @@
 <h1> Review: Interstella5555 </h1>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/9/95/Interstella5555.jpg" alt="Interstella 5555: The 5tory of the 5ecret 5tar 5ystem">
+<img src="https://upload.wikimedia.org/wikipedia/en/9/95/Interstella5555.jpg" alt="Interstella 5555: The 5tory of the 5ecret 5tar 5ystem" width="500">
 
 <p>lobortis nunc tristique purus ornare suscipit. Suspendisse vitae sem finibus, aliquet lorem sed, ultrices libero.
 	Curabitur tempus erat ullamcorper leo dignissim accumsan. Pellentesque consequat dolor augue, sagittis pharetra nibh
@@ -12,7 +12,7 @@
 	id magna. Nulla non metus in enim gravida blandit. Ut egestas dictum ipsum scelerisque facilisis. Nam sit amet ipsum
 	cursus, scelerisque elit non, pulvinar nisi.</p>
 
-<img src="https://miro.medium.com/max/1200/1*po1BZ9zw02mNZ3w6XdKK3g.jpeg" alt="Music's Got Me Feeling So Free: Revisiting Daft Punk's 'Interstella 5555'">
+<img src="https://miro.medium.com/max/1200/1*po1BZ9zw02mNZ3w6XdKK3g.jpeg" alt="Music's Got Me Feeling So Free: Revisiting Daft Punk's 'Interstella 5555'" width="500">
 
 <p>Nullam at felis tempor, vestibulum enim sit amet, euismod sapien. Sed aliquet leo ac interdum iaculis. Donec sed
 	metus eu lorem cursus consectetur. Sed gravida risus a urna feugiat molestie. Etiam molestie elit leo, eget
@@ -25,7 +25,7 @@
 	ullamcorper, metus diam varius lectus, quis tempus justo velit sit amet lectus. Curabitur sollicitudin ac leo eu
 	dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
 
-<img src="https://www.baltimoresun.com/resizer/a6D2rsbLiiLMwE5AfL2_IEjxj2M=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4KMVEETIN5FO5BSC6AYUXXA6VQ.jpg" alt="Daft Punk's 'Interstella' is a break from sci-fi self-seriousness">
+<img src="https://www.baltimoresun.com/resizer/a6D2rsbLiiLMwE5AfL2_IEjxj2M=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4KMVEETIN5FO5BSC6AYUXXA6VQ.jpg" alt="Daft Punk's 'Interstella' is a break from sci-fi self-seriousness" width="500">
 
 <p>Aenean at sem enim. Cras metus ligula, sagittis ac ullamcorper eget, placerat quis ipsum. Praesent congue eros neque,
 	at ullamcorper orci tristique ultrices. Duis felis massa, molestie et varius et, varius sit amet lorem. Phasellus

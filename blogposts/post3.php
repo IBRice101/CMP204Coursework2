@@ -1,6 +1,6 @@
 <h1> Who are the men behind the masks? </h1>
 
-<img src="https://i.pinimg.com/originals/7f/2b/32/7f2b322713301d832b8e10154ed084bc.jpg" alt="Daft Punk with the Weeknd">
+<img src="https://i.pinimg.com/originals/7f/2b/32/7f2b322713301d832b8e10154ed084bc.jpg" alt="Daft Punk with the Weeknd" width="500">
 
 <p>Curabitur pellentesque sagittis leo, in convallis risus volutpat non. Vestibulum ante ipsum primis in faucibus orci
 	luctus et ultrices posuere cubilia curae; Proin lectus mauris, sollicitudin sed pretium non, convallis a velit.
@@ -10,7 +10,7 @@
 	blandit nulla. Donec et orci feugiat, convallis eros at, aliquam leo. Curabitur imperdiet, nibh a fermentum semper,
 	orci risus interdum tellus, et rhoncus dui lorem ut tortor.</p>
 
-<img src="https://lh3.googleusercontent.com/proxy/JtSWIwEd-UESiuukzcpLl9hbewP-BesqrL_sB_SnnOsmpbV12wJF7sMhRdvrkd6ltZY3PoxYJM9c8j7CGzQqErFR-8oxCyLsOvkFOIXib27aC2Avd5Di1NxFKUlG" alt="Daft Punk's Helmets Originally Had Wigs - Fact Fiend">
+<img src="https://www.magneticmag.com/.image/t_share/MTMzMjgwMTgwOTMxMTk0ODUw/daft-punk-bagspng.png" alt="Daft Punk in an interview with bags over their heads" width="500">
 
 <p>Nam volutpat quam nec metus suscipit, quis congue ante gravida. Curabitur ac vulputate dui. Nam iaculis eget eros
 	quis rhoncus. Ut vel viverra sem. Fusce lobortis eros lectus, at maximus mi suscipit eget. Vivamus ornare id magna
@@ -22,10 +22,10 @@
 	metus. Praesent sit amet diam sapien.</p>
 
 ![Daft Punk: The men behind the masks]
-<img src="https://www.gannett-cdn.com/media/USATODAY/USATODAY/2014/01/31//1391183046004-DAFTPUNK5.JPG?width=2560" alt="Daft Punk: The men behind the masks">
+<img src="https://www.gannett-cdn.com/media/USATODAY/USATODAY/2014/01/31//1391183046004-DAFTPUNK5.JPG?width=2560" alt="Daft Punk: The men behind the masks" width="500">
 
 <p>Curabitur nec justo at quam tempor luctus. Nulla egestas viverra urna, et posuere nisi ultrices et. Nullam id augue
 	egestas, convallis dui semper, pulvinar justo. In porta libero vitae vestibulum imperdiet. Maecenas nec iaculis
 	ipsum. Curabitur congue mauris ac bibendum vestibulum. Nulla ultrices eros vitae orci sagittis gravida. </p>
 
-<img src="https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/daft-punk-unmasked-1.jpg" alt="Daft Punk Without Their Helmets">
+<img src="https://festivalsherpa-wpengine.netdna-ssl.com/wp-content/uploads/2014/01/daft-punk-unmasked-1.jpg" alt="Daft Punk Without Their Helmets" width="500">

@@ -1,12 +1,12 @@
 <h1> Where are Daft Punk? </h1>
 
-<img src="https://weraveyou.com/wp-content/uploads/2020/10/Daft-Punk.jpg" alt="Daft Punk Against a blue background">
+<img src="https://weraveyou.com/wp-content/uploads/2020/10/Daft-Punk.jpg" alt="Daft Punk Against a blue background" width="500">
 
 <p>Nulla facilisi. Duis sit amet maximus massa. Morbi sem nisl, euismod ac viverra in, aliquet at lectus. Integer
 	pulvinar quis erat pulvinar aliquam. Mauris eu dignissim purus. Cras vitae vulputate orci. Sed suscipit gravida
 	nibh eu maximus. In posuere quis risus nec ultrices.</p>
 
-<img src="https://www.biography.com/.image/t_share/MTQ3NjM5NjAyMDAwMTc2MjAy/pharrell_williams_photo_by_brian_bowen_nbcuniversal_getty_462041114.jpg" alt="Pharrell Williams - Music Producer, Singer">
+<img src="https://www.biography.com/.image/t_share/MTQ3NjM5NjAyMDAwMTc2MjAy/pharrell_williams_photo_by_brian_bowen_nbcuniversal_getty_462041114.jpg" alt="Pharrell Williams - Music Producer, Singer" width="500" height="500">
 
 <p>Vestibulum aliquet, ipsum nec lobortis venenatis, libero sem tristique felis, vitae maximus lectus ex eu lorem.
 	Integer efficitur risus odio, et accumsan eros pretium ac. Duis sodales velit at convallis aliquet. Vivamus congue,
@@ -21,7 +21,7 @@
 	sodales. Donec vel dui mi. Sed egestas sapien scelerisque, vestibulum turpis quis, tempus erat. Nam hendrerit
 	hendrerit enim eget elementum. </p>
 
-<img src="https://www.nme.com/wp-content/uploads/2018/10/PARCELS_MAY2018_3_image_AntoineHenault.jpg" alt="Parcels promo image for their debut album">
+<img src="https://www.nme.com/wp-content/uploads/2018/10/PARCELS_MAY2018_3_image_AntoineHenault.jpg" alt="Parcels promo image for their debut album" width="500">
 
 <p>Ut efficitur sit amet elit non vulputate. Integer nisl felis, fringilla eu mollis ut, finibus vitae ante. Nam ac
 	massa in dolor vestibulum posuere non vitae augue. Nam mollis condimentum ante eget rhoncus. Nulla egestas ornare
