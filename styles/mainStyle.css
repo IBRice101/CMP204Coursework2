@@ -170,3 +170,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+.col {
+    padding: 25px;
+}

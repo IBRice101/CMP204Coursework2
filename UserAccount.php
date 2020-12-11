@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	if(isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] == true){
 ?>
 <!DOCTYPE html>
@@ -33,22 +34,20 @@
 	<div class="row">
 		<h1><?php echo htmlspecialchars($_SESSION["firstname"]); ?>'s account</h1>
 	</div>
+	<div class="col">
+		<h2>Change user info</h2>
+		<button class="usrInfo" id="changeName" onclick="changeName()">Change your Name</button>
+		<button class="usrInfo" id="changeEmail" onclick="changeEmail()">Change your Email</button>
+		<button class="usrInfo" id="changePassword" onclick="changePassword()">Change your Password</button>
+	</div>
+	<div class="col">
+		<h2>Delete account</h2>
+		<button class="usrInfo" id="deleteAccount" onclick="deleteAccount()">Delete your Account</button>
+	</div>
 	<div class="row">
 		<div class="col">
-			<h2>Change user info</h2>
-			<button class="usrInfo" id="changeName" onclick="changeName()">Change your Name</button>
-			<button class="usrInfo" id="changeEmail" onclick="changeEmail()">Change your Email</button>
-			<button class="usrInfo" id="changePassword" onclick="changePassword()">Change your Password</button>
-		</div>
-		<div class="col">
-			<h2>Delete account</h2>
-			<button class="usrInfo" id="deleteAccount" onclick="deleteAccount()">Delete your Account</button>
-		</div>
-		<div class="row">
-			<div class="col">
-				<h2>Sign Out</h2>
-				<button class="usrInfo" id="signOut" onclick="signOut()">Sign out from your account</button>
-			</div>
+			<h2>Sign Out</h2>
+			<a href="scripts/php/scriptLogOut.php">Log Out</a>
 		</div>
 	</div>
 </div>
