@@ -9,6 +9,32 @@
 	// connection to lochnagar
 	$conn = mysqli_connect($servername, $usernameSQL, $passwordSQL, $dbname);
 	
-	//TODO: Add ability to delete user account
+	if (!$conn) {
+		die("Connection failed:" . mysqli_connect_error());
+	}
+	
+	session_start();
+	
+	$sql = "DELETE FROM myUsers WHERE email = ?";
+	
+	$email = $_SESSION["email"];
+	
+	if ($stmt = mysqli_prepare($conn, $sql)) {
+		mysqli_stmt_bind_param($stmt, "s", $email);
+		if (mysqli_stmt_execute($stmt)) {
+			echo '
+		<head>
+			<link rel="stylesheet" href="../../../styles/mainStyle.css"><title>User Deleted</title>
+		</head>
+		<body>
+			<h1>User Deleted</h1>
+		</body>';
+			sleep(3);
+			header("location: ../../LogIn.php");
+		} else {
+			echo "<p class='error'> There was an error </p>";
+			echo "Error: " . $sql . mysqli_error($conn);
+		}
+	}
 	
 	mysqli_close($conn);
