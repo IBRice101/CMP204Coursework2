@@ -96,7 +96,7 @@
 		if (mysqli_stmt_execute($stmt)) {
 			echo '
 		<head>
-			<link rel="stylesheet" href="../../styles/mainStyle.css">
+			<link rel="stylesheet" href="../../styles/mainStyle.css"><title>New User Created</title>
 		</head>
 		<body>
 			<h1>New User Created</h1>

@@ -1,6 +1,6 @@
-var light = '#DBDBDB';
-var dark = '#232323';
-var silver = '#AAA9AD';
+let light = '#DBDBDB';
+let dark = '#232323';
+let silver = '#AAA9AD';
 
 function ChangeThemeLight() {
     document.documentElement.style.setProperty('--background', light);
