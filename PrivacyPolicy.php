@@ -42,7 +42,9 @@
 			<h2>Your rights</h2>
 			<p>As the user of the site, your rights in this capacity must be made explicitly clear. You have the right
 				to (through contacting the developer via the email below) access any and all of the data we collect on
-				you at any time for any reason, including no reason.
+				you at any time for any reason, including no reason. In a future addition to the privacy policy, we will
+				outline our intention to have a function that wipes your data from our database precisely one year after
+				login.
 				<br/>
 				Additionally, you have the right to full transparency on our part with regards to how your data is being
 				used, to this end we will contact you via email given any and all changes to this privacy policy, and
