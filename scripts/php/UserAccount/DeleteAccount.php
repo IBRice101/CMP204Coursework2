@@ -15,12 +15,12 @@
 	
 	session_start();
 	
-	$sql = "DELETE FROM myUsers WHERE email = ?";
+	$sql = "DELETE FROM myUsers WHERE id = ?";
 	
-	$email = $_SESSION["email"];
+	$id = $_SESSION["id"];
 	
 	if ($stmt = mysqli_prepare($conn, $sql)) {
-		mysqli_stmt_bind_param($stmt, "s", $email);
+		mysqli_stmt_bind_param($stmt, "s", $id);
 		if (mysqli_stmt_execute($stmt)) {
 			echo '
 		<head>
