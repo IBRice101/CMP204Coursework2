@@ -7,7 +7,7 @@ table, th, td {
 }
 
 .reqCol{
-width:30%;
+width:20%;
 }
 
 .metCol{
@@ -15,7 +15,7 @@ width:60%;
 }
 
 .fileCol{
-width:10%;
+width:20%;
 }
 
 th{
