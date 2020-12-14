@@ -141,8 +141,8 @@
     	<?php include('master/footer.php')?>
 
         <!--From https://cookieconsent.popupsmart.com/-->
-        <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
-    	<script type="text/javascript" src="scripts/js/cookieConsent.js"></script>
+        <script type="text/javascript" src="scripts/js/cookiePopup/popper.js"></script>
+    	<script type="text/javascript" src="scripts/js/cookiePopup/cookieConsent.js"></script>
 	
 
     </body>
