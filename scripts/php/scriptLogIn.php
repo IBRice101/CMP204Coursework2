@@ -75,6 +75,8 @@
 							$_SESSION["firstname"] = $firstname;
 							$_SESSION["lastname"] = $lastname;
 							
+							
+							
 							echo '<head>
 							<link rel="stylesheet" href="styles/mainStyle.css"><title>Welcome!</title>
 							</head>

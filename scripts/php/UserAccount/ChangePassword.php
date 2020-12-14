@@ -37,7 +37,7 @@
 			<h1>Password updated</h1>
 		</body>';
 			sleep(3);
-			header("location: ../../LogIn.php");
+			header("location: ../../../LogIn.php");
 		} else {
 			echo "<p class='error'> There was an error </p>";
 			echo "Error: " . $sql . mysqli_error($conn);
