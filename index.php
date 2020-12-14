@@ -22,7 +22,6 @@
             <script type="text/javascript" src="scripts/js/slick.js"></script>
             <script type="text/javascript" src="scripts/js/slickInit.js"></script>
         <script type="text/javascript" src="scripts/js/themeChange.js"></script>
-        <script type="text/javascript" src="scripts/js/cookie.js"></script>
 
     </head>
     <body>
