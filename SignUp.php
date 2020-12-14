@@ -59,6 +59,7 @@
             <p>Already have an account?</p>
             <a href="LogIn.php">Log In</a>
             <br/>
+			<a href="PrivacyPolicy.php">Our Privacy Policy</a>
 			<br/>
         </div>
         
