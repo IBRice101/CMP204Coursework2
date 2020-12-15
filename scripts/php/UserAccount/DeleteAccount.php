@@ -1,6 +1,5 @@
 <?php
 	// With thanks to Lynsay A. Shepherd
-	
 	$servername = "lochnagar.abertay.ac.uk";
 	$usernameSQL = "sql1901124";
 	$passwordSQL = "tHvLZSxWZ4ex";

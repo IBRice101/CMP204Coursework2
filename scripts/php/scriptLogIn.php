@@ -41,7 +41,6 @@
 		// Salt and hash password
 		
 		// With thanks to Lynsay A. Shepherd
-		
 		$servername = "lochnagar.abertay.ac.uk";
 		$usernameDB = "sql1901124";
 		$passwordDB = "tHvLZSxWZ4ex";
@@ -56,16 +55,22 @@
 		
 		$sql = "SELECT id, firstname, lastname, email, password FROM myUsers WHERE email = ?";
 		
+		// prepares statement
 		if ($state = mysqli_prepare($conn, $sql)) {
 			mysqli_stmt_bind_param($state, "s", $email);
 			
+			// executes statement
 			if (mysqli_stmt_execute($state)) {
 				mysqli_stmt_store_result($state);
 				
+				// if there is exactly one user with those creds
 				if (mysqli_stmt_num_rows($state) == 1) {
 					mysqli_stmt_bind_result($state, $id, $firstname, $lastname, $email, $sqlPassword);
 					
+					// fetch the statement
 					if (mysqli_stmt_fetch($state)) {
+						
+						//check the password entered is the same as the one in the db
 						if (password_verify($pword, $sqlPassword)) {
 							session_start();
 							
