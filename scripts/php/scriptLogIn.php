@@ -6,18 +6,18 @@
 	
 	function validateEmail($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please input your email address</p>";
+			echo "<p style='color: red'>Please input your email address</p>";
 		} else {
 			$x = strip($x);
 			if (!(filter_var($x, FILTER_VALIDATE_EMAIL))) {
-				echo "<p class='error'>This email address is invalid</p>";
+				echo "<p style='color: red'>This email address is invalid</p>";
 			}
 		}
 		return $x;
 	}
 	function validatePassword($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please input your password</p>";
+			echo "<p style='color: red'>Please input your password</p>";
 		} else {
 			$x = strip($x);
 		}
@@ -75,10 +75,8 @@
 							$_SESSION["firstname"] = $firstname;
 							$_SESSION["lastname"] = $lastname;
 							
-							
-							
 							echo '<head>
-							<link rel="stylesheet" href="styles/mainStyle.css"><title>Welcome!</title>
+							<link rel="stylesheet" href="../../styles/mainStyle.css"><title>Welcome!</title>
 							</head>
 							<body>
 							<h1>Welcome to the site, you have successfully logged in!</h1>
@@ -88,7 +86,7 @@
 							header("location: ../../index.php");
 						} else {
 							echo '<head>
-							<link rel="stylesheet" href="styles/mainStyle.css"><title>Incorrect Password</title>
+							<link rel="stylesheet" href="../../styles/mainStyle.css"><title>Incorrect Password</title>
 							</head>
 							<body>
 							<h1>Password is invalid</h1>
@@ -100,7 +98,7 @@
 					}
 				} else {
 					echo '<head>
-						<link rel="stylesheet" href="styles/mainStyle.css"><title>Incorrect Email Address</title>
+						<link rel="stylesheet" href="../../styles/mainStyle.css"><title>Incorrect Email Address</title>
 						</head>
 						<body>
 						<h1>There is no account associated with that email address</h1>
@@ -111,7 +109,7 @@
 				}
 			} else {
 				echo '<head>
-						<link rel="stylesheet" href="styles/mainStyle.css"><title>Unknown Error</title>
+						<link rel="stylesheet" href="../../styles/mainStyle.css"><title>Unknown Error</title>
 						</head>
 						<body>
 						<h1>Unknown Error</h1>

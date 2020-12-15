@@ -14,7 +14,7 @@
 	function validateFirstName($x) {
 		//check if string is empty
 		if ($x == "") {
-			echo "<p class='error'>Please input your first name</p>";
+			echo "<p style='color: red'>Please input your first name</p>";
 		} else {
 			$x = strip($x);
 		}
@@ -22,7 +22,7 @@
 	}
 	function validateLastName($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please input your surname</p>";
+			echo "<p style='color: red'>Please input your surname</p>";
 		} else {
 			$x = strip($x);
 		}
@@ -30,20 +30,20 @@
 	}
 	function validateEmail($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please input your email address</p>";
+			echo "<p style='color: red'>Please input your email address</p>";
 		} else {
 			$x = strip($x);
 			if (!(filter_var($x, FILTER_VALIDATE_EMAIL))) {
-				echo "<p class='error'>This email address is invalid</p>";
+				echo "<p style='color: red'>This email address is invalid</p>";
 			}
 		}
 		return $x;
 	}
 	function validatePassword($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please choose a password</p>";
+			echo "<p style='color: red'>Please choose a password</p>";
 		} elseif (!preg_match('/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/', $x)) {
-			echo "<p class='error'>Password not strong enough</p>";
+			echo "<p style='color: red'>Password not strong enough</p>";
 		} else {
 			$x = strip($x);
 		}
@@ -51,7 +51,7 @@
 	}
 	function validatePasswordConfirm($x) {
 		if ($x == "") {
-			echo "<p class='error'>Please confirm your password</p>";
+			echo "<p style='color: red'>Please confirm your password</p>";
 		} else {
 			$x = strip($x);
 		}
@@ -59,7 +59,7 @@
 	}
 	
 	if ($pword != $pwordConfirm) {
-		echo "<p class='error'>The passwords do not match</p>";
+		echo "<p style='color: red'>The passwords do not match</p>";
 	}
 	
 	function strip($x) {
@@ -104,7 +104,7 @@
 			sleep(3);
 			header("location: ../../LogIn.php");
 		} else {
-			echo "<p class='error'> There was an error </p>";
+			echo "<p style='color: red'> There was an error </p>";
 			echo "Error: " . $sql . mysqli_error($conn);
         }
     }

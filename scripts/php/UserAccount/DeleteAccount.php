@@ -32,7 +32,7 @@
 			sleep(3);
 			header("location: ../../../LogIn.php");
 		} else {
-			echo "<p class='error'> There was an error </p>";
+			echo "<p style='color: red'> There was an error </p>";
 			echo "Error: " . $sql . mysqli_error($conn);
 		}
 	}
